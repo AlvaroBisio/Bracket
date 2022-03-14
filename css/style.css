@@ -39,7 +39,14 @@ body{
     outline-color: rgba(49, 138, 172, 0);
     outline-offset: 80px;
     text-shadow: 1px 1px 6px #fff;
-
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.imagenestransiciones:hover{
+    filter: grayscale(50%);
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.imagenproductocel:hover{
+    filter: grayscale(50%);
 }
 .contenedor .header2{
     grid-column-start: 1;
@@ -81,6 +88,7 @@ body{
 }
 .botonlink:hover {
     color: rgb(0, 0, 0) !important;
+    -webkit-transform:scale(1.2);transform:scale(1.2)
   }
 body div nav a button{
     text-decoration: none;
