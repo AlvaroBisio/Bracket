@@ -5,54 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mujer</title>
-    <link rel="shortcut icon" href="../img/icon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="contenedor">
-        <div class="logo">
-            <img src="../img/logo.jpeg" height="300px" width="204px" alt="">
-        </div>
-        <header class="header"> 
-           <a class="botonredes" href="https://www.instagram.com/bracketcasualclothes/?hl=es-la"><img src="../img/logoinst.png" height="50px" width="50px" alt=""></a> 
-           <a class="botonredes" href="https://facebook.com/Bracket-Casual-Clothes-144638125607175/"><img src="../img/logofac.png" height="50px" width="50px" alt=""></a> 
-        </header>
-        <nav class="header2">
-            <a class="botonlink" href="../index.html#banco">Promociones bancarias</a></li>
-            <a class="botonlink" href="../index.html#legal">Politicas de devolucion</a></li>
-            <a form id="form"> 
-                <input class="formllenar" type="Buscar" id="Buscar" name="" placeholder="">
-                <button class="botonlink">Buscar</button>
-            </form>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.jpeg" alt="" width="100" height="150">
             </a>
-            <a class="botonredes" href="../pages/carrito.html"><img src="../img/cart.png" height="50px" width="50px" alt=""></a> </li>
-        </nav>
-        <nav class="links">
-           <a class="botonlink" href="../index.html">Inicio</a></li>
-           <a class="botonlink" href="../pages/hombre.html">Hombre</a></li>
-           <a class="botonlink" href="../pages/niño.html">Niños</a></li>
-           <a class="botonlink" href="../pages/remeras.html">Remeras</a></li>
-           <a class="botonlink" href="../pages/musculosas.html">Musculosas</a></li>
-           <a class="botonlink" href="../pages/gorras.html">Gorras</a></li>  
-        </nav>
-        <div class="ProdCatalogo">
-          <h1>PRODUCTO</h1>
-          <img class=imagenproductocel src="../img/prod8.png" alt="" >
-          <h2>PRECIO: $1111</h2>
-          <h3>Descripcion</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident et, laudantium minus tempore aut unde officiis expedita accusamus, ex quas facilis necessitatibus labore porro. Repellendus quibusdam labore omnis unde!</p>
-          <button class="footerbuttons">COMPRAR</button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/hombre.html">Hombre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/info.html">Info</a>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn" type="submit">Buscar</button>
+            </form>
+          </div>
         </div>
-        <div class="lineseparation">
-            <hr width="75%" color="black"/>
-         </div>
-         <footer class="footer">
-            <div>
-              <a class="footerbuttons" href="../pages/Info.html">Info</a>
-              <a  class="footerbuttons" href="../pages/form.html">Suscribite</a>
-            </div>
-            <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13308.287142989699!2d-60.0650664!3d-33.4995094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4aada2084b38c9f2!2sBracket%20Casual%20Clothes!5e0!3m2!1ses-419!2sar!4v1644682284042!5m2!1ses-419!2sar" width="150" height="110" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-         </footer>
-    </div>
+      </nav>
+        
+      <div class="card2 col-sm">
+        <img src="../img/prod8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Producto</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores itaque accusamus aliquam illum dolores porro reiciendis, magni assumenda alias, sint minus inventore laudantium, sapiente fugiat sequi nihil consequatur neque aperiam!</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+
+
+
+      <footer class="col-sm">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.instagram.com/bracketcasualclothes/?hl=es-la">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://facebook.com/Bracket-Casual-Clothes-144638125607175/">Facebook</a>
+            </li>
+          </ul>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
