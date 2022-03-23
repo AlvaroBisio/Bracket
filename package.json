@@ -1,0 +1,19 @@
+{
+  "name": "bracket2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "alv": "sass style.scss css/style.css -w --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlvaroBisio/bracket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlvaroBisio/bracket/issues"
+  },
+  "homepage": "https://github.com/AlvaroBisio/bracket#readme"
+}
