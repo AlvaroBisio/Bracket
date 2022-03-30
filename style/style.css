@@ -1,10 +1,20 @@
-body .contenedor .catalogo, body .contenedor .video, body .contenedor .linksgrandes, body .contenedor .subscribe form label, body .contenedor .catalogoname2, body .contenedor .catalogoname, body .contenedor .lineseparation, body .contenedor .footer, body .contenedor .header2 {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Base*/
+/*Genere mapa de colores*/
+body .contenedor .subscribe form label, body .contenedor .catalogoname2, body .contenedor .catalogoname, body .contenedor .lineseparation, body .contenedor .footer, body .contenedor .catalogo, body .contenedor .video, body .contenedor .linksgrandes, body .contenedor .header2 {
   grid-column-start: 1;
   grid-column-end: -1;
   display: flex;
   align-items: center;
 }
 
+/*Grids que ocupand el total de la pantalla*/
+/*Mixin para los links*/
+/*Components*/
 body {
   background-color: #ff6600;
   font-family: "Trebuchet MS";
@@ -46,13 +56,13 @@ body .contenedor .header2 .botonlink:hover {
 }
 body .contenedor .header2 a {
   text-decoration: none;
-  color: aliceblue;
+  color: #f0f8ff;
   font-weight: bold;
   text-align: center;
 }
 body .contenedor .header2 a button {
   text-decoration: none;
-  color: aliceblue;
+  color: #f0f8ff;
   font-weight: bold;
   font-size: 15px;
   color: #fff;
@@ -103,7 +113,7 @@ body .contenedor .links {
 }
 body .contenedor .links a {
   text-decoration: none;
-  color: aliceblue;
+  color: #f0f8ff;
   font-weight: bold;
   font-size: 20px;
   color: #fff;
@@ -119,155 +129,6 @@ body .contenedor .links a {
 }
 body .contenedor .links .botonlink:hover {
   color: black;
-}
-
-body .contenedor .footer {
-  justify-content: space-between;
-}
-body .contenedor .footer .footerbuttons:hover {
-  color: black !important;
-}
-body .contenedor .footer div {
-  text-decoration: none;
-  color: aliceblue;
-  font-weight: bold;
-  padding: 40px 40px 40px 40px;
-  text-align: center;
-  display: flex;
-}
-body .contenedor .footer div .iframe-container2 {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-body .contenedor .footer div .iframe-container2 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-body .contenedor .footer div a {
-  text-decoration: none;
-  color: aliceblue;
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
-  color: #fff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: transparent;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 6px;
-}
-body .contenedor .lineseparation {
-  justify-content: center;
-}
-body .contenedor .catalogoname {
-  font-size: 60px;
-  color: #fff;
-  justify-content: center;
-}
-body .contenedor .catalogoname2 {
-  font-size: 50px;
-  color: #fff;
-  justify-content: center;
-}
-body .contenedor .ProdCatalogo {
-  color: #fff;
-  grid-column-start: 1;
-  grid-column-end: -1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 10px 0px 10px 10px;
-}
-body .contenedor .ProdCatalogo .imagenproductocel {
-  width: 500px;
-  height: 500px;
-}
-body .contenedor .ProdCatalogo .imagenproductocel:hover {
-  filter: grayscale(50%);
-}
-body .contenedor .ProdCatalogo h1 {
-  padding: 0px 0px 20px 0px;
-}
-body .contenedor .ProdCatalogo h2 {
-  padding: 30px 0px 20px 0px;
-}
-body .contenedor .ProdCatalogo p {
-  padding: 10px 0px 40px 0px;
-}
-body .contenedor .ProdCatalogo button {
-  text-decoration: none;
-  color: aliceblue;
-  font-weight: bold;
-  font-size: 20px;
-  color: #fff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: transparent;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 6px;
-}
-body .contenedor .subscribe button {
-  text-decoration: none;
-  color: aliceblue;
-  font-weight: bold;
-  font-size: 20px;
-  color: #fff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: transparent;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 6px;
-}
-body .contenedor .subscribe form label {
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-  padding: 10px 10px 10px 10px;
-}
-body .contenedor .subscribe form .formllenar2 {
-  text-decoration: none;
-  font-weight: lighter;
-  font-size: 15px;
-  color: black;
-  margin-left: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: #fff;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 6px;
-}
-body .contenedor .subscribe form .formtitulos {
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body .contenedor {
@@ -329,7 +190,151 @@ body .contenedor .legales {
   padding-left: 40px;
 }
 
-/*EL MEDIA QUERIE LO DEJO COMO REFERENCIA PARA SEGUIRLO TRABAJANDO A FUTURO*/
+body .contenedor .footer {
+  justify-content: space-between;
+}
+body .contenedor .footer .footerbuttons:hover {
+  color: black !important;
+}
+body .contenedor .footer div {
+  text-decoration: none;
+  color: #f0f8ff;
+  font-weight: bold;
+  padding: 40px 40px 40px 40px;
+  text-align: center;
+  display: flex;
+}
+body .contenedor .footer div .iframe-container2 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+body .contenedor .footer div .iframe-container2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body .contenedor .footer div a {
+  text-decoration: none;
+  color: #f0f8ff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 6px;
+}
+body .contenedor .lineseparation {
+  justify-content: center;
+}
+body .contenedor .catalogoname {
+  font-size: 60px;
+  color: #fff;
+  justify-content: center;
+}
+body .contenedor .catalogoname2 {
+  font-size: 50px;
+  color: #fff;
+  justify-content: center;
+}
+body .contenedor .ProdCatalogo {
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 0px 10px 10px;
+}
+body .contenedor .ProdCatalogo .imagenproductocel {
+  width: 500px;
+  height: 500px;
+}
+body .contenedor .ProdCatalogo .imagenproductocel:hover {
+  filter: grayscale(50%);
+}
+body .contenedor .ProdCatalogo h1 {
+  padding: 0px 0px 20px 0px;
+}
+body .contenedor .ProdCatalogo h2 {
+  padding: 30px 0px 20px 0px;
+}
+body .contenedor .ProdCatalogo p {
+  padding: 10px 0px 40px 0px;
+}
+body .contenedor .ProdCatalogo button {
+  text-decoration: none;
+  color: #f0f8ff;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 6px;
+}
+body .contenedor .subscribe button {
+  text-decoration: none;
+  color: #f0f8ff;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 6px;
+}
+body .contenedor .subscribe form label {
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  padding: 10px 10px 10px 10px;
+}
+body .contenedor .subscribe form .formllenar2 {
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 15px;
+  color: black;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 6px;
+}
+body .contenedor .subscribe form .formtitulos {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*El media aun tengo que aplicarlo, juro que lo estoy intentando*/
 @media all and (max-width: 1020px) {
   .contenedor .links a {
     font-size: 18px;

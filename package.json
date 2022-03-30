@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "alv": "sass style.scss css/style.css -w --no-source-map"
+    "test": "sass scssstyle.scss css/style.css -w --no-source-map"
   },
   "repository": {
     "type": "git",
